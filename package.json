@@ -2,7 +2,7 @@
     "name": "marauder-comp-template",
     "version": "1.0.0",
     "description": "marauder 组件模板",
-    "main": "src/index.js",
+    "main": "lib/index.cjs.js",
     "module": "src/index.js",
     "scripts": {
         "dev": "marax dev",
@@ -12,7 +12,7 @@
             "node ./node_modules/webpack-marauder/hook/postpublish.js"
     },
     "devDependencies": {
-        "webpack-marauder": "^1.6.2"
+        "webpack-marauder": "^1.7.4"
     },
     "engines": {
         "node": ">= 8.0.0",
