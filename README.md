@@ -4,7 +4,7 @@
 
 
 #### demo（demo仍然走unpkg服务）
-<a href="http://unpkg.smfe.sina.cn/<%= name %>/dist/demo.html" target="blank">http://unpkg.smfe.sina.cn/<%= name %>/dist/demo.html</a>
+<a href="http://unpkg.smfe.sina.cn/<%= name %>/dist/demo/index.html" target="blank">http://unpkg.smfe.sina.cn/<%= name %>/dist/demo/index.html</a>
 
 #### umd 路径（如果不提供umd，请手动删除）
 说明：自spkg2.0版本之后将支持多出口js 上传umd到mjs服务中，请维护好如下umd路径，以及调用方法，供大家使用
