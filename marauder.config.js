@@ -5,15 +5,20 @@ module.exports = {
   // 对于 es6 模块，通过 esm 配置，通知 babel 添加额外支持
   esm: [],
   // 静态资源 CDN 路径
-  publicPath: './',
+  publicPath: "./",
   // 生成 js 与 css source map
   sourceMap: false,
+  //用于描述 组件 工程化相关属性
+  pkgConfig: {
+    noticeAfterPublish: false, //false,true,用于提示是否在版本发布的邮件提醒相关引用人员.
+    noticeLevel: "minor" //patch minor major  分别对应 发小版本，中版本，大版本 以及以上才发，比如 prepatch ，preminor 都不进行触发。 默认为patch
+  },
   // ftp 服务器配置
   ftp: {
-    host: '',
+    host: "",
     port: 0,
-    user: '',
-    password: '',
+    user: "",
+    password: "",
     // 上传成功后是否自动打开浏览器预览
     openBrowser: true,
     // 远程路径配置
@@ -22,4 +27,4 @@ module.exports = {
       version: true
     }
   }
-}
+};
