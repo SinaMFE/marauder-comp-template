@@ -14,7 +14,8 @@
             "node ./node_modules/webpack-marauder/hook/postpublish.js"
     },
     "devDependencies": {
-        "webpack-marauder": "^1.9.0"
+        "webpack-marauder": "^1.12.2",
+        "typescript": "^3.0.1"
     },
     "engines": {
         "node": ">= 8.0.0",
